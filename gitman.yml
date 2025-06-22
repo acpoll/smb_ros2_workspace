@@ -146,17 +146,24 @@ sources:
     links:
       - source: .
         target: src/visualization/joy_panel_cpp
+  # - name: smb_object_detection
+  #   repo: https://github.com/ETHZ-RobotX/smb_object_detection_ros2.git
+  #   rev: docker_working
+  #   type: git
+  #   links:
+  #     - source: .
+  #       target: src/perception/smb_object_detection
   - name: smb_object_detection
-    repo: https://github.com/ETHZ-RobotX/smb_object_detection_ros2.git
+    repo: https://github.com/moskitoo/smb_object_detection_ros2.git
     rev: docker_working
     type: git
     links:
       - source: .
-        target: src/perception/smb_object_detection
+        target: src/perception/smb_object_detection  
   # - name: smb_object_detection_fork
   #   repo: https://github.com/moskitoo/smb_object_detection_ros2.git
   #   rev: main
   #   type: git
   #   links:
   #     - source: .
-  #       target: src/perception/smb_object_detection        
+  #       target: src/perception/smb_object_detection_fork     
