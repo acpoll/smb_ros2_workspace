@@ -122,3 +122,7 @@ dependencies/gitman.log
 venv/
 
 detections
+rosbags/*
+src/detection/object_detection/models/*
+frames_*.gv
+frames_*.pdf
